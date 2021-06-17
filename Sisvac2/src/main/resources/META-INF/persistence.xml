@@ -9,8 +9,8 @@
         <!-- sql-server -->
             <property name="javax.persistence.jdbc.driver" value="com.microsoft.sqlserver.jdbc.SQLServerDriver" />
             <property name="javax.persistence.jdbc.url" value="jdbc:sqlserver://sisvac-server.database.windows.net:1433;database=sisvac;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;" />
-            <property name="javax.persistence.jdbc.user" value="sisvac-admin@sisvac-server" />
-            <property name="javax.persistence.jdbc.password" value="Sis-Root@2021" />
+            <property name="javax.persistence.jdbc.user" value="*******" />
+            <property name="javax.persistence.jdbc.password" value="******" />
 
 		
 		 	<property name="hibernate.dialect" value="org.hibernate.dialect.SQLServerDialect"/>
